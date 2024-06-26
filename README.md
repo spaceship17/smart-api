@@ -1,5 +1,7 @@
 # smart-api
 
+Note: Ensure to use your own API key for all API requests. You can generate and obtain an API key from the respective API service provider's website.
+
 Welcome to the API Use Cases repository! This repository is dedicated to providing developers with practical examples and scripts for common API use cases that are frequently needed in everyday development work. The goal is to make it easier for developers to integrate various APIs into their projects by offering ready-to-use code snippets and examples.
 
 Table of Contents
@@ -30,15 +32,20 @@ Description: Retrieve comments from YouTube videos.
 File: Comment_Scrape_Youtube.ipynb
 Dependencies: google-api-python-client, oauth2client
 
--Reddit Comment Scraping
+- Reddit Comment Scraping
 Description: Fetch comments from Reddit posts.
 File: reddit_comment_scrape.py
 Dependencies: praw
 
--Weather Information
+- Weather Information
 Description: Get current weather data for a specified location.
 File: weather.py
 Dependencies: requests
+
+- Kaggle Data Retrieval
+Description: Download datasets from Kaggle.
+File: main.py
+Dependencies: kaggle
 
 More Use Cases
 We will continuously add more use cases over time. Stay tuned for updates!
@@ -52,3 +59,13 @@ Contributions are welcome! If you have a use case you'd like to add or an improv
 - Push to the branch.
 - Create a pull request.
 - Please ensure your code follows the repository's coding standards and includes adequate documentation.
+
+
+License
+NIL
+
+Contact
+If you have any questions or suggestions, feel free to open an issue or reach out to the repository maintainer:
+
+Name: Amit Choubey
+Email: amit.katyayana@gmail.com
